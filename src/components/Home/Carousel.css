@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.outer-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.text{
+  position: absolute;
+  color: aliceblue;
+  line-height: 1.5;
+  text-align: center;
+  align-items: center;
+}
+.overlay{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+.button{
+  background-color: aliceblue;
+  border-radius: 40px;
+  color: #18266c;
+  font-size: 1.5em;
+  padding: 0.7em 1.2em;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+h1{
+  font-size: 4.5em;
+}
+.video-container{
+  height: 100vh;
+  width: 100;
+
+}
